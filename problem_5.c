@@ -2,7 +2,9 @@
 
 int main()
 {
-    int a = printf("JayeshBilwal");
-    printf("\n%d",a);
+    int length = printf("JayeshBilwal");
+
+    printf("The length of the string is %d",length);
+    
     return 0;
 }

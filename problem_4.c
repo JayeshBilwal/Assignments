@@ -1,13 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    float a,Pi = 3.14;
     int r;
+    float Pi = 3.14;
 
     printf("Enter the radius of the circle:");
-    scanf("%d",&r);
-    a = Pi * r*r;
-    printf("Area of circle is %f having the radius %d",a,r);
+    scanf("%d", &r);
+    printf("Area of circle is %f having the radius %d", Pi * r * r,r);
     return 0;
 }
